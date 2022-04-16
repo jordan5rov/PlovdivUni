@@ -8,6 +8,7 @@ int[] ReadArray(int n)
     int[] arr = new int[n];
     for (int i = 0; i < n; i++)
     {
+        Console.Write("Enter element {0}: ", i);
         arr[i] = Convert.ToInt32(Console.ReadLine());
     }
     return arr;
@@ -15,19 +16,21 @@ int[] ReadArray(int n)
 
 Console.Write("Enter the lenght of the arrays: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter the numbers for the first array");
+Console.WriteLine("Enter the numbers for the first array");
 int[] nums1 = ReadArray(n);
-Console.Write("Enter the numbers for the second array");
+Console.WriteLine("Enter the numbers for the second array");
 int[] nums2 = ReadArray(n);
 
 for (int i = 0; i < n; i++)
 {
     if (nums1[i] == nums2[i] && nums1.Length == nums2.Length)
     {
-        Console.WriteLine("The elements are equal");
+        if (i == n - 1)
+            Console.WriteLine("The elements are equal");
     }
     else
     {
         Console.WriteLine("The elements are not equal");
+        break;
     }
 }
