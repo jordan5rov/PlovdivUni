@@ -1,0 +1,7 @@
+C:\Users\1\RiderProjects\PlovdivUni\PreExam-AlgorithmsAndDataStructures\PreExam-AlgorithmsAndDataStructures\bin\Debug\PreExam_AlgorithmsAndDataStructures.exe
+C:\Users\1\RiderProjects\PlovdivUni\PreExam-AlgorithmsAndDataStructures\PreExam-AlgorithmsAndDataStructures\bin\Debug\PreExam_AlgorithmsAndDataStructures.pdb
+C:\Users\1\RiderProjects\PlovdivUni\PreExam-AlgorithmsAndDataStructures\PreExam-AlgorithmsAndDataStructures\obj\Debug\PreExam-AlgorithmsAndDataStructures.csproj.AssemblyReference.cache
+C:\Users\1\RiderProjects\PlovdivUni\PreExam-AlgorithmsAndDataStructures\PreExam-AlgorithmsAndDataStructures\obj\Debug\PreExam-AlgorithmsAndDataStructures.csproj.SuggestedBindingRedirects.cache
+C:\Users\1\RiderProjects\PlovdivUni\PreExam-AlgorithmsAndDataStructures\PreExam-AlgorithmsAndDataStructures\obj\Debug\PreExam-AlgorithmsAndDataStructures.csproj.CoreCompileInputs.cache
+C:\Users\1\RiderProjects\PlovdivUni\PreExam-AlgorithmsAndDataStructures\PreExam-AlgorithmsAndDataStructures\obj\Debug\PreExam_AlgorithmsAndDataStructures.exe
+C:\Users\1\RiderProjects\PlovdivUni\PreExam-AlgorithmsAndDataStructures\PreExam-AlgorithmsAndDataStructures\obj\Debug\PreExam_AlgorithmsAndDataStructures.pdb
