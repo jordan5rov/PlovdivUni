@@ -17,7 +17,7 @@ namespace PreExam_AlgorithmsAndDataStructures
              Read array in single line split by space
              Example: 1 5 6 7 8
             */
-            
+            /*
             var numbers = Console.ReadLine()
                 .Split()
                 .Select(int.Parse)
@@ -53,6 +53,29 @@ namespace PreExam_AlgorithmsAndDataStructures
                     BreadthFirstSearch(node);
                 }
             }
+            */
+
+            List<int> increasingNums = new List<int>(); 
+            int[] nums = {2, 4, 6, 2, 7, 12, 30, 9};
+
+
+            for (int i = 0; i < nums.Length - 1; i++)
+            {
+                int j = i;
+                List<int> currentIncreasingNums = new List<int>();
+                currentIncreasingNums.Add(nums[i]);
+                while (nums[j] < nums[j + 1])
+                {
+                    currentIncreasingNums.Add(nums[j + 1]);
+                    j++;
+                }
+
+                if (currentIncreasingNums.Count > increasingNums.Count)
+                {
+                    increasingNums = currentIncreasingNums;
+                }
+            }
+            
         }
 
         private static void DepthFirstSearch(int node)
