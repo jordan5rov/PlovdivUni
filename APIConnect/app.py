@@ -1,8 +1,8 @@
 import requests
 
 # API keys (if required)
-WEATHER_API_KEY = '44f27f4754b929a585de742d9e6b365a'
-NASA_API_KEY = 'V5k2i3RvCupnFRbwkhrdQGt3YMfCKJW40U2caCgZ'
+WEATHER_API_KEY = ''
+NASA_API_KEY = ''
 
 
 # Weather API integration (OpenWeather)
